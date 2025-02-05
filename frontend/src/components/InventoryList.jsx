@@ -16,7 +16,7 @@ function InventoryList() {
             }
         }
         fetchInventory();
-    })
+    },[])
     return(
         <>
             {/* Inventory list */}
